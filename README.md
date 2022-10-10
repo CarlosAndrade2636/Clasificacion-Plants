@@ -1,7 +1,7 @@
 # Plant Disease Detector
 Una aplicación Flutter que detecta la planta a partir de una foto de la planta.
 ## Visuals
-<img src="Imagen1.jpg" height="500">
+<img src="Imagen-1.gif" height="500">
 
 ## Instalacion
 
