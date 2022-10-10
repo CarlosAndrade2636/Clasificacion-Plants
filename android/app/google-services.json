@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "907049614507",
+    "firebase_url": "https://test-80131-default-rtdb.firebaseio.com",
+    "project_id": "test-80131",
+    "storage_bucket": "test-80131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907049614507:android:a8aa28a90932aee428cbee",
+        "android_client_info": {
+          "package_name": "com.codigocorrecto.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAszcuU8VNsDv5XjhLyDiXCl6OL2Lt54-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907049614507:android:879cea712cddb24d28cbee",
+        "android_client_info": {
+          "package_name": "com.plantas.detectorplantas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAszcuU8VNsDv5XjhLyDiXCl6OL2Lt54-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907049614507:android:3f153e13e5f4bcda28cbee",
+        "android_client_info": {
+          "package_name": "com.plantasdetector.detectorplantas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAszcuU8VNsDv5XjhLyDiXCl6OL2Lt54-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907049614507:android:b135fec8e5c6414828cbee",
+        "android_client_info": {
+          "package_name": "com.suis.plant_disease_detector.plant_disease_detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAszcuU8VNsDv5XjhLyDiXCl6OL2Lt54-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907049614507-cmdjt77up5fva0ffjhl0bsbvdpeck3cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
