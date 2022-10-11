@@ -1,4 +1,4 @@
-#Mon Oct 10 17:59:40 COT 2022
+#Tue Oct 11 02:40:32 COT 2022
 base.0=C\:\\Users\\JHON-PC\\Downloads\\Flutter-Clasificacion-Plants\\Clasificacion-Plants\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

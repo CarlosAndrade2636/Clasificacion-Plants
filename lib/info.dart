@@ -134,20 +134,27 @@ class _InfoPageState extends State<InfoPage> {
                     style: TextStyle(color: Colors.black, fontSize: 21.0),
                     softWrap: true,
                   ),*/
-
+                  SizedBox(
+                    height: 20,
+                  ),
                   Expanded(
                     flex: 5,
                     child: Container(
                       color: Colors.grey[200],
+
                       child: Center(
+
                           child: Card(
                               margin: EdgeInsets.fromLTRB(0.0, 45.0, 0.0, 0.0),
+
                               child: Container(
                                   width: 310.0,
                                   height: 290.0,
                                   child: Padding(
                                     padding: EdgeInsets.all(10.0),
+
                                     child: Column(
+
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
@@ -273,6 +280,8 @@ class _InfoPageState extends State<InfoPage> {
                                                     color: Colors.black,
                                                   ),
                                                 ),
+
+
                                               ],
                                             )
                                           ],
@@ -308,14 +317,23 @@ class _InfoPageState extends State<InfoPage> {
                                                     fontSize: 12.0,
                                                     color: Colors.black,
                                                   ),
-                                                )
+                                                ),
+
+
+
                                               ],
-                                            )
+                                            ),
+
                                           ],
+
                                         ),
                                       ],
                                     ),
-                                  )))),
+                                  )
+                              )
+                          )
+                      ),
+
                     ),
                   ), //
                 ],

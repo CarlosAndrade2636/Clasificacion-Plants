@@ -9,9 +9,10 @@ class Classifier {
 
   Future<List?> getDisease(ImageSource imageSource) async {
 
+
     //var image = await ImagePicker().pickImage(source: imageSource);
     var image = await ImagePicker().pickImage(source: imageSource);
-    imageFile = File(image!.path);
+    imageFile = File(image!.path);  //imageFile = File(image!.path);
     await loadModel();
     var result = await classifyImage(imageFile);
     Tflite.close();
@@ -20,7 +21,7 @@ class Classifier {
 
   loadModel() async {
     await Tflite.loadModel(
-      model: "assets/model/model-entrenado2.tflite",
+      model: "assets/model/modelo-google.tflite",   //model2 es modelo de jupiter
       labels: "assets/model/labels.txt",
       numThreads: 1,
     );
