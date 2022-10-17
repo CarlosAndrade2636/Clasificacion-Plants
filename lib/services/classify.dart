@@ -17,6 +17,8 @@ class Classifier {
     var result = await classifyImage(imageFile);
     Tflite.close();
     return result;
+    
+   
   }
 
   loadModel() async {
@@ -25,6 +27,7 @@ class Classifier {
       labels: "assets/model/labels.txt",
       numThreads: 1,
     );
+
   }
 
   Future<List?> classifyImage(File image) async {
@@ -38,6 +41,9 @@ class Classifier {
         threshold: 0.2,
         //threshold: 0.5,
         asynch: true);
+        
     return output;
+
+    
   }
 }

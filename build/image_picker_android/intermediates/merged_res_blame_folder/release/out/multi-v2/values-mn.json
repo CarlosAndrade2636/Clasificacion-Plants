@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\JHON-PC\\Downloads\\Flutter-Clasificacion-Plants\\Clasificacion-Plants\\build\\image_picker_android\\intermediates\\res\\merged\\release\\values-mn\\values-mn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JHON-PC\\.gradle\\caches\\transforms-2\\files-2.1\\49905fa56537b4c817f1c89026f3a00d\\core-1.8.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\JHON-PC\\Downloads\\Flutter-Clasificacion-Plants\\Clasificacion-Plants\\build\\image_picker_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-mn\\values-mn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JHON-PC\\.gradle\\caches\\transforms-2\\files-2.1\\49905fa56537b4c817f1c89026f3a00d\\core-1.8.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

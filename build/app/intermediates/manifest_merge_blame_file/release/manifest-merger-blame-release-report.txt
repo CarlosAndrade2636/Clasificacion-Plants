@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.suis.plant_disease_detector.plant_disease_detector"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:3:5-80
+11-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:3:22-77
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:4:5-76
+12-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:4:22-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:22:5-67
+13-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:22:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
+18
+19    <application
+20        android:name="android.app.Application"
+20-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:7:9-42
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\49905fa56537b4c817f1c89026f3a00d\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/launcher_icon"
+22-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:8:9-45
+23        android:label="Identificador de Plantas" >
+23-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:6:9-49
+24        <activity
+24-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:9:9-29:20
+25            android:name="com.suis.plant_disease_detector.plant_disease_detector.MainActivity"
+25-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:10:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:14:13-163
+27            android:exported="true"
+27-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:11:13-36
+28            android:hardwareAccelerated="true"
+28-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:15:13-47
+29            android:launchMode="singleTop"
+29-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:12:13-43
+30            android:theme="@style/LaunchTheme"
+30-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:13:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:16:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:21:13-24:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:22:15-70
+41                android:resource="@style/NormalTheme" />
+41-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:23:15-52
+42
+43            <intent-filter>
+43-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:25:13-28:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:26:17-68
+44-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:26:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:27:17-76
+46-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:27:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:32:9-34:33
+54            android:name="flutterEmbedding"
+54-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:33:13-44
+55            android:value="2" />
+55-->C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\android\app\src\main\AndroidManifest.xml:34:13-30
+56
+57        <service
+57-->[:firebase_core] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[:firebase_core] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-analytics-ktx:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\13a14a01774288f1b5bad5cb5f96b757\jetified-firebase-analytics-ktx-21.1.1\AndroidManifest.xml:10:13-37
+61            <meta-data
+61-->[:firebase_core] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+62-->[:firebase_core] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_core] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-analytics-ktx:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\13a14a01774288f1b5bad5cb5f96b757\jetified-firebase-analytics-ktx-21.1.1\AndroidManifest.xml:11:13-13:85
+65                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+65-->[com.google.firebase:firebase-analytics-ktx:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\13a14a01774288f1b5bad5cb5f96b757\jetified-firebase-analytics-ktx-21.1.1\AndroidManifest.xml:12:17-126
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-analytics-ktx:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\13a14a01774288f1b5bad5cb5f96b757\jetified-firebase-analytics-ktx-21.1.1\AndroidManifest.xml:13:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ad1a3c2780134bd9a6dc0190bc6c8e18\jetified-firebase-common-ktx-20.1.2\AndroidManifest.xml:15:13-17:85
+68                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+68-->[com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ad1a3c2780134bd9a6dc0190bc6c8e18\jetified-firebase-common-ktx-20.1.2\AndroidManifest.xml:16:17-113
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ad1a3c2780134bd9a6dc0190bc6c8e18\jetified-firebase-common-ktx-20.1.2\AndroidManifest.xml:17:17-82
+70            <meta-data
+70-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
+71                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+71-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\42c07cb912b06c6b4eca8a5257776569\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\7866851c0c7207ff78d8a082ae972d9a\jetified-firebase-installations-17.0.3\AndroidManifest.xml:18:13-20:85
+74                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+74-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\7866851c0c7207ff78d8a082ae972d9a\jetified-firebase-installations-17.0.3\AndroidManifest.xml:19:17-127
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\7866851c0c7207ff78d8a082ae972d9a\jetified-firebase-installations-17.0.3\AndroidManifest.xml:20:17-82
+76        </service>
+77
+78        <provider
+78-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+79            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+79-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+80            android:authorities="com.suis.plant_disease_detector.plant_disease_detector.flutter.image_provider"
+80-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+81            android:exported="false"
+81-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+82            android:grantUriPermissions="true" >
+82-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+83            <meta-data
+83-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+85                android:resource="@xml/flutter_image_picker_file_paths" />
+85-->[:image_picker_android] C:\Users\JHON-PC\Downloads\Flutter-Clasificacion-Plants\Clasificacion-Plants\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+86        </provider>
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ba1167bfc94a9ac6588555698d0ed503\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ba1167bfc94a9ac6588555698d0ed503\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ba1167bfc94a9ac6588555698d0ed503\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ba1167bfc94a9ac6588555698d0ed503\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ba1167bfc94a9ac6588555698d0ed503\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\ba1167bfc94a9ac6588555698d0ed503\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+97            android:authorities="com.suis.plant_disease_detector.plant_disease_detector.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:20.1.2] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\507e3b098b205f14f33af0eb1e6d0f2a\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+101
+102        <receiver
+102-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
+103            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+103-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
+105            android:exported="false" >
+105-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
+106        </receiver>
+107
+108        <service
+108-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
+109            android:name="com.google.android.gms.measurement.AppMeasurementService"
+109-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
+111            android:exported="false" />
+111-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
+112        <service
+112-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
+113            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+113-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" />
+116-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\1af51de98b681df0c633c070be44b185\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\48e574345194689eb17fc93431dfd7af\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\48e574345194689eb17fc93431dfd7af\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\JHON-PC\.gradle\caches\transforms-2\files-2.1\48e574345194689eb17fc93431dfd7af\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+121    </application>
+122
+123</manifest>

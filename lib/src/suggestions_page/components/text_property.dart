@@ -6,7 +6,9 @@ class TextProperty extends StatelessWidget {
       {Key? key,
       required this.title,
       required this.value,
-      required this.height})
+      required this.height
+      
+      })
       : super(key: key);
 
   final String title;
@@ -24,18 +26,19 @@ class TextProperty extends StatelessWidget {
             style: TextStyle(
               color: kSecondary,
               fontFamily: 'SFBold',
-              fontSize: (0.039 * height),
+              fontSize: (0.030 * height),
             ),
           ),
           subtitle: Text(
             value,
             style: TextStyle(
-              color: kSecondary,
+              color: kMain,
               fontFamily: 'SFRegular',
-              fontSize: (0.026 * height),
+              fontSize: (0.039 * height),  //0.026
             ),
           ),
         )
+        
       ],
     );
   }

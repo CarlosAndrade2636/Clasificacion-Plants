@@ -111,7 +111,7 @@ class _PantallaInicioState extends State<PantallaInicio> {
                 color: kWhite,
               ),
 
-              label: "Tomar foto",
+              label: "Toque aqui para \n " " identificar la foto",
               backgroundColor: kMain,
               onTap: () async {    //
                 late double _confidence;
@@ -162,7 +162,7 @@ class _PantallaInicioState extends State<PantallaInicio> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Opacity(
-                            opacity: 0.82,
+                            opacity: 0.95,
                             child: Image(
                               width: 75,
                               height: 75,
@@ -189,7 +189,7 @@ class _PantallaInicioState extends State<PantallaInicio> {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 20,
                             ),
                           ),
                         ],
@@ -201,10 +201,12 @@ class _PantallaInicioState extends State<PantallaInicio> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(7)),
                     image: DecorationImage(
+                      
                       // colorFilter: ColorFiltered(colorFilter: C),
                         scale: 0.1,
                         fit: BoxFit.cover,
-                        image: AssetImage('assets/images/solo-green-nature-plants-wallpaper-preview.jpg')),
+                        image: AssetImage('assets/images/fondo-hojas.jpg',),
+                        ),
                   ),
                 ),
                 SizedBox(
@@ -255,7 +257,8 @@ class _PantallaInicioState extends State<PantallaInicio> {
               ],
             ),
           ),
-        ));
+        )
+        );
   }
 
 }

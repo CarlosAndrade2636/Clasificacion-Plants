@@ -42,18 +42,7 @@ class _InfoPageState extends State<InfoPage> {
                 //Column
                 //crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  /** 
-                  Image.asset(
-                    'assets/images/GIHP4C-2.png',
-                    width: 100,
-                    height: 100,
-                    //fit: BoxFit.cover,
-                  ),
-                  Image.asset(
-                    'assets/images/jardin-png.png',
-                    width: 300,
-                    height: 200,
-                  ),*/
+                  
 
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -75,65 +64,7 @@ class _InfoPageState extends State<InfoPage> {
                     ],
                   ),
                   Text("                              "),
-                  /** 
-                  Text(
-                    "Creado por :",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 32.0,
-                        fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    "Jonathan Atancuri & Carlos Andrade",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.black, fontSize: 21.0),
-                    softWrap: true,
-                  ),
-                  Text(
-                    "Carrera de :",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 32.0,
-                        fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    "Ingeniera de Sistemas",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.black, fontSize: 21.0),
-                    softWrap: true,
-                  ),
-                  Text(
-                    "Grupo de :",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 32.0,
-                        fontWeight: FontWeight.bold),
-                  ),
-                  Text(
-                    "Cloud Computing-Smart Cities-High Performance Computing",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.black, fontSize: 21.0),
-                    softWrap: true,
-                  ),
-                  Text(
-                    "Universidad :",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 32.0,
-                        fontWeight: FontWeight.bold),
-                  ),
-
-
-                  Text(
-                    "Politecnica Salesiana (SEDE CUENCA)",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.black, fontSize: 21.0),
-                    softWrap: true,
-                  ),*/
+ 
                   SizedBox(
                     height: 20,
                   ),

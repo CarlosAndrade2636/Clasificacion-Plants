@@ -32,19 +32,26 @@ class Suggestions extends StatelessWidget {
                 image: AssetImage('assets/images/4.jpg'), fit: BoxFit.cover),
           ),
           child: Padding(
-            padding: EdgeInsets.all((0.02 * size.height)),
+            padding: EdgeInsets.all((0.004 * size.height)),
             child: Column(
               children: [
                 Flexible(
                     child: Center(
                         child: PlantImage(
                   size: size,
+                  
                   imageFile: File(_disease.imagePath),
                 ))),
+                
+                
+                
                 Divider(
                   thickness: (0.0066 * size.height),
                   height: (0.013 * size.height),
+                  
+                  
                 ),
+                
                 SizedBox(
                   height: size.height * 0.5,
                   child: ListView(
@@ -54,21 +61,47 @@ class Suggestions extends StatelessWidget {
                         value: _disease.name,
                         height: size.height,
                       ),
+                      /** 
+                       * Text(
+                        'Nombre Comun',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontFamily: 'SFBold'
+                          ),
+                      ),
+                       * 
+                      */
+                      Divider(
+                  thickness: (0.0066 * size.height),
+                  height: (0.013 * size.height),
+                ),
                       TextProperty(
                         title: 'Nombre Comun',
                         value: _disease.nombre_comun,
                         height: size.height,
                       ),
+                      Divider(
+                  thickness: (0.0066 * size.height),
+                  height: (0.013 * size.height),
+                ),
                       TextProperty(
                         title: 'Nombre cientifico',
                         value: _disease.nombre_cientifico,
                         height: size.height,
                       ),
+                      Divider(
+                  thickness: (0.0066 * size.height),
+                  height: (0.013 * size.height),
+                ),
                       TextProperty(
                         title: 'Lugar de donde proviene',
                         value: _disease.lugar_proviene,
                         height: size.height,
                       ),
+                      Divider(
+                  thickness: (0.0066 * size.height),
+                  height: (0.013 * size.height),
+                ),
                       TextProperty(
                         title: 'Lugar de adaptacion',
                         value: _disease.lugar_adaptacion,
