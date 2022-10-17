@@ -125,7 +125,7 @@ class _PantallaInicioState extends State<PantallaInicio> {
                 });
 
                 // Check confidence
-                if (_confidence > 0.5) {   //0.8
+                if (_confidence > 0.6) {   //0.8
                   // Set disease for Disease Service
                   _diseaseService.setDiseaseValue(_disease);
 
@@ -136,14 +136,16 @@ class _PantallaInicioState extends State<PantallaInicio> {
                     context,
                     Suggestions.routeName,
                   );
-                } else {
+                } else if (_confidence > 0.3 && _confidence < 0.6) {
                   // Display unsure message
 
 
                   _customShapeSnackBar(context: context);
 
-
+                }else{
+                  print('Adulto mayor');
                 }
+                
               },
             ),
           ],

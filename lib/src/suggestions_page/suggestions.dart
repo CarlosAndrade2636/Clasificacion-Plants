@@ -26,13 +26,19 @@ class Suggestions extends StatelessWidget {
         backgroundColor: kMain,
         title: const Text('Sugerencias'),
       ),
+      
       body: Container(
+        
           decoration: const BoxDecoration(
+            
             image: DecorationImage(
+              
                 image: AssetImage('assets/images/4.jpg'), fit: BoxFit.cover),
           ),
+          
+          
           child: Padding(
-            padding: EdgeInsets.all((0.004 * size.height)),
+            padding: EdgeInsets.all((0.002 * size.height)),
             child: Column(
               children: [
                 Flexible(
@@ -43,7 +49,9 @@ class Suggestions extends StatelessWidget {
                   imageFile: File(_disease.imagePath),
                 ))),
                 
-                
+                SizedBox(
+                  height: 50,
+                ),
                 
                 Divider(
                   thickness: (0.0066 * size.height),
@@ -71,6 +79,7 @@ class Suggestions extends StatelessWidget {
                       ),
                        * 
                       */
+                      
                       Divider(
                   thickness: (0.0066 * size.height),
                   height: (0.013 * size.height),
@@ -112,7 +121,8 @@ class Suggestions extends StatelessWidget {
                 )
               ],
             ),
-          )),
+          )
+          ),
     );
   }
 }
